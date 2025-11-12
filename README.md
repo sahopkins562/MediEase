@@ -5,7 +5,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/sahopkins562/MediEase)
 ![GitHub last commit](https://img.shields.io/github/last-commit/sahopkins562/MediEase)
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Xcode](https://img.shields.io/badge/Xcode-Project-blue?logo=xcode)
 ![Status](https://img.shields.io/badge/status-active-success)
 
 </div>
@@ -13,28 +13,25 @@
 ---
 
 ## 📘 Overview
-MediEase is a script-based medical data application designed to simplify and organize health information for patients and healthcare providers.  
-The project focuses on improving health literacy by translating complex medical details into clear, easy-to-understand insights.  
+MediEase is a **medical data organization project** built as an Xcode-based system.  
+It focuses on simplifying and managing health-related information by organizing key project files, data structures, and workspace settings.  
 
-This project demonstrates practical coding and data-handling skills through automation, file organization, and information analysis.  
-It reflects a growing focus on accessible technology in healthcare and effective data management practices.
+This project highlights structured software organization using **Xcode project configuration files**, which can be expanded later to include scripts or UI logic.  
 
 ---
 
 ## ⚙️ Features
-- 🧾 **Data Simplification** – Converts complex reports into readable summaries  
-- 💾 **File Management** – Organizes and stores medical records efficiently  
-- 🧠 **Smart Insights** – Highlights key patient data or patterns  
-- 🔒 **Secure Handling** – Protects sensitive health information  
-- 🧩 **Script-Based Flexibility** – Easy to adapt and expand  
+- 💾 **Organized Workspace** – All Xcode workspace and project metadata structured neatly  
+- 🧠 **Scalable Design** – Supports future integration of logic and UI layers  
+- 🧩 **Version Control Ready** – Configured for Git and GitHub tracking  
+- 📁 **Cross-System Compatibility** – Works across macOS systems supporting Xcode  
 
 ---
 
 ## 🧩 Technologies Used
-- 🐍 Python (core scripting language)  
-- 📁 CSV and text file integration for data input/output  
-- 🌐 Git & GitHub for version control  
-- 💻 Xcode project environment (for structured development and testing)  
+- 💻 **Xcode Project Environment** (for project setup and structure)
+- 🌐 **Git & GitHub** (for version control)
+- 📜 **PBXProj & XCWorkspace Files** (for project definitions)
 
 ---
 
@@ -43,23 +40,21 @@ MediEase/
 │
 ├── MediEase.xcodeproj/ # Main Xcode project folder
 │ ├── project.pbxproj # Core project configuration
-│ └── contents.xcworkspacedata
+│ ├── project.xcworkspace/ # Workspace settings
+│ │ ├── contents.xcworkspacedata
+│ │ ├── xcuserdata/
+│ │ │ └── UserInterfaceState.xcuserstate
+│ │ └── xcshareddata/
+│ └── xcuserdata/ # User data folder
+│ └── UserInterfaceState.xcuserstate
 │
-├── scripts/ # Python or shell scripts used in the app
-│ ├── data_parser.py
-│ ├── analyzer.py
-│ └── utils.py
-│
-├── data/ # Sample health data or CSV files
-│ ├── sample_input.csv
-│ └── patient_records.csv
-│
+├── .MediEase.xcodeproj # Metadata file created by Xcode
 ├── README.md # Project documentation
-└── .gitignore # Git ignored files
+└── .gitignore # Git ignore configuration
 
 ---
 
-## 💻 How to Run
+## 💻 How to Open
 1. Clone this repository:
    ```bash
    git clone https://github.com/sahopkins562/MediEase.git
